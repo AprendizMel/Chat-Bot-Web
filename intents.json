@@ -1,0 +1,360 @@
+{
+  "intents": [
+    {
+      "tag": "Saludar",
+      "patterns": [
+        "Hola",
+        "¿Cómo estás?",
+        "Saludos",
+        "Buenas tardes",
+        "Buenas noches",
+        "Buenos días"
+      ],
+      "responses": [
+        "Hola, soy un asistente virtual.",
+        "Hola, gracias por visitarnos.",
+        "Hola, ¿cómo puedo ayudarte?",
+        "¿Tienes alguna pregunta?"
+      ]
+    },
+    {
+      "tag": "Despedida",
+      "patterns": [
+        "Adiós",
+        "Hasta pronto",
+        "Suerte",
+        "Chao"
+      ],
+      "responses": [
+        "Hola, gracias por visitarnos.",
+        "Ten un buen día.",
+        "Adiós, regresa pronto."
+      ]
+    },
+    {
+      "tag": "requisitos_aplicación",
+      "patterns": [
+        "Normalista",
+        "Tecnólogo",
+        "Normalista superior",
+        "Bachiller",
+        "soy tecnico puedo aplicar al programa"
+      ],
+      "responses": [
+        "No, nuestra orientación estratégica y convenios actuales en Enseña por Colombia son específicamente para profesionales. En la convocatoria de este 2024 estaremos priorizando perfiles bilingües y en Ciencias, Tecnología, Ingeniería y Matemáticas (STEM)."
+      ]
+    },
+    {
+      "tag": "edad_aplicacion",
+      "patterns": [
+        "¿Tienen limite de edad?",
+        "¿Cual es el límite de edad para aplicar?",
+        "¿Existe algun límite de edad para postulareme?",
+        "cual es el limite de edad para poder aplicar",
+        "tienen limite de edad para aplicar",
+        "existe limite de edad para aplicar",
+        "cual es el limite de edad?"
+      ],
+      "responses": [
+        "No tenemos límite de edad; sin embargo, es muy importante haberse graduado entre el 2014 y 2024, dado que estos primeros 10 años de trayectoria profesional creemos son el momento de mayor apertura de los profesionales."
+      ]
+    },
+    {
+      "tag": "postulación_2024",
+      "patterns": [
+        "Si me graduo este año, ¿me puedo postular?",
+        "Me gradué este año.",
+        "Todavía no tengo mi título, ¿me puedo postular?"
+      ],
+      "responses": [
+        "Sí. Te puedes postular siempre y cuando obtengas tu diploma o acta de grado antes de finalizar la etapa de Experiencia Lidera (7 de septiembre de 2024)."
+      ]
+    },
+    {
+      "tag": "que_es_experiencia_lidera",
+      "patterns": [
+        "que es la experiencia lidera",
+        "quiero saber sobre la experiencia lidera.",
+        "quiero inforemcion sobre la experiencia lidera",
+        "que es lidera"
+      ],
+      "responses": [
+        "Es la última etapa antes de la matriculación en el programa. Es una jornada inmersiva en la cual llevamos a cabo una serie de actividades prácticas que nos permiten evaluar competencias necesarias para hacer parte del programa."
+      ]
+    },
+    {
+      "tag": "lugar_Experiencia_lidera",
+      "patterns": [
+        "¿donde se lleva a cabo la experiencia?",
+        "¿En donde se realiza la experiencia lidera?",
+        "¿En que lugar se hace la experiencia lidera?",
+        "¿En que ciudad se realiza la experiencia lidera?",
+        "¿donde hacen la experiencia lidera?",
+        "¿En que ciudad se va a realizar la experiencia lidera?",
+        "cual es la ciudad donde se realiza la experiencia lidera"
+        
+      ],
+      "responses": [
+        "Este año (2024), llevaremos a cabo la última etapa del proceso de selección de manera presencial en la ciudad de Bogotá. Además, aprovechando la tecnología, buscaremos que todos puedan asistir en modalidad virtual para las demás ciudades y municipios."
+      ]
+    },
+    {
+      "tag": "dia_Experiencia_escoger",
+      "patterns": [
+        "¿puedo escoger un dia para la experiencia lidera?",
+        "¿uno puede seleccionar el dia?",
+        "¿quien asigna el día de la experiencia?",
+        "¿cuando es el día?",
+        "¿cuando se realiza la experiencia lidera?",
+        "¿uno puede escoger el día de la experiencia lidera?",
+        "¿yo puedo escoger el día?",
+        "quien escoge el dia de la experiencia lidera"
+      ],
+      "responses": [
+        "De ser seleccionado para continuar en el proceso de selección, te será asignado un día para asistir entre el 1 de agosto y el 7 de septiembre. Te estaremos avisando con 4 días de anticipación para que te prepares."
+      ]
+    },
+    {
+      "tag": "horario",
+      "patterns": [
+        "¿cual es el horario de la experiencia lidera?",
+        "¿En que horario se realiza la experiencia lidera?",
+        "¿Cuales son los horarios de la experiencia lidera?",
+        "dime el horario en el que se realiza la experiencia lidera"
+      ],
+      "responses": [
+        "Debes de tener disponibilidad desde 7 am hasta las 4 pm, ya que estaremos realizando diferentes actividades."
+      ]
+    },
+    {
+      "tag": "formacion_inicial",
+      "patterns": [
+        "¿que es la formación inicial?",
+        "¿cuando empieza la formacion inicial?",
+        "cuales son las fechas de la formacion inicial",
+        "cuando inicia la formacion inicial"
+      ],
+      "responses": [
+        "La formación inicial es de 11 semanas, comenzando la última semana de septiembre y hasta la segunda semana de diciembre. Esta formación te permitirá desarrollar y/o fortalecer las competencias y conocimientos preliminares para llegar al salón de clase. También te permitirá afinar lentes propios que te ayudarán a aprender en y con tu comunidad. Los módulos de formación se desarrollan bajo nuestros marcos de referencia: Pedagogía y Liderazgo. Esta formación tiene un componente de comunidad y una práctica con estudiantes. Está compuesta por 9 semanas virtuales y 2 semanas presenciales en las regiones priorizadas para hacer la práctica pedagógica; esta etapa es obligatoria y los participantes continúan siendo evaluados. El cumplimiento de los hitos, el compromiso, la asistencia y la participación es parte del proceso de selección y quienes no cumplan con los requisitos podrán ser retirados del programa."
+      ]
+    },
+    {
+      "tag": "fechas_formacion",
+      "patterns": [
+        "¿Cuáles son las fechas de la formacion inicial?",
+        "¿En que fecha inicia la formación?",
+        "¿Cuando son las fechas de la formación inicial?",
+        "¿Me puede decir las fechas de la formación inicial?",
+        "¿Cuando empieza la formación inicial?",
+        "cuanto tiempo se demora la formaion inicial"
+      ],
+      "responses": [
+        "Todos los participantes deben empezar la formación inicial (Virtual: Sincrónica y asincrónica, y presencial) el 30 de septiembre del 2024. El instituto de formación inicial culmina el 13 de diciembre y es requisito cumplirlo en su totalidad para tener continuidad en el programa."
+      ]
+    },
+    {
+      "tag": "disponibilidad_tiempo_formacion",
+      "patterns": [
+        "¿Cuanto tiempo dura la formacion?",
+        "¿Cuál es el tiempo que se necesita para la formación?",
+        "¿Qué disponibilidad de tiempo requiero para la formación?",
+        "¿Cuánto tiempo se demora la formación?",
+        "¿Cuánto tiempo dura la formación?",
+        "¿Cuánto tiempo tarda la formación?",
+        "¿Qué disponibilidad de tiempo se necesita para la formación?",
+        "cuanto tiempo se demora la formacion"
+      ],
+      "responses": [
+        "Nuestra formación inicial está compuesta por dos etapas: Etapa 1 - Alistamiento (1 semana): Durante esta etapa se requiere de trabajo 100% asíncrono que los y las participantes podrán organizar como más les convenga. Para el desarrollo de entregables se tienen fechas establecidas, por lo cual se requiere tiempo de trabajo autónomo diariamente. Etapa 2 - Formación Virtual (8 semanas): Se ha llevado a cabo de Lunes a Viernes (incluyendo algunos festivos), se planea tener horarios entre las 2:30 y 7:30 pm los días de semana y los Sábados de 8:00 am a 4:30 pm. Sin embargo, adicional a este tiempo de trabajo síncrono también se requiere tiempo de trabajo asíncrono en un horario distinto. Etapa 3 - Instituto regional (2 semanas): Será en 1 o 2 regiones del país priorizadas, donde los participantes tendrán su práctica pedagógica en instituciones educativas de nuestros aliados de 6:00 am a 12:30 pm. Adicionalmente, contarán con sesiones de formación de 2:00 a 6:00 pm. Los fines de semanas y festivos tendrán espacios de formación de 8:00 am a 4:00 pm."
+      ]
+    },
+    {
+      "tag": "asistencia_obligatoria_formacion",
+      "patterns": [
+        "es obligatorio asistir a la formación inicial",
+        "es obligatorio asistir a esta formación inicial",
+        "todas las personas deben asistir a la formación inicial",
+        "qué pasa si no puedo asistir a la formación inicial",
+        "No puedo asistir a la formación inicial.",
+        "tengo que asistir a la formación inicial"
+      ],
+      "responses": [
+        "Sí, para todos los participantes seleccionados para formar parte de Lidera es obligatorio. Es un diplomado en Pedagogía para licenciados y no licenciados y la formación en nuestros marcos de referencia en Pedagogía y Liderazgo."
+      ]
+    },
+    {
+      "tag": "pago_sueldo_remuneracion",
+      "patterns": [
+        "¿la formacion es remunerada?",
+        "¿al tomar la formacion me pagan?",
+        "¿tienen algun incentivo economico mientras se toma el curso?",
+        "¿pagan por tomar la formacion?",
+        "existe remuneracion mientras se esta cursando el diplomado",
+        "¿me van a pagar mientars estudio?",
+        "existe alguna remuneracion",
+        "tienen incentivo economico para los que tomamos el curso",
+        "cual es el sueldo que pagan por tomar la formacion"
+        
+      ],
+      "responses": [
+        "No, la formación no tiene remuneración económica. Al contrario, es un beneficio que otorgamos como parte de nuestro compromiso con la calidad educativa. Enseña por Colombia otorga una beca completa de formación inicial, valorada en cerca de 4 millones de pesos para el diplomado en Pedagogía, en colaboración con un aliado externo. Esta beca es una inversión en tu futuro profesional y depende de tu dedicación y compromiso con el Programa."
+      ]
+    },
+    {
+      "tag": "garantiza_plaza_contrato_trabajo",
+      "patterns": [
+        "al aprobar la formacion me garantiza trabajo",
+        "si apruebo toda la formacion me van a dar trabajo",
+        "aprobar el curso me garantiza una plaza",
+        "al finalizar la formacion me garantiza trabajo",
+        "despues de terminar la formacion es seguro un contrato de trabajo",
+        "aprobar el curso me garantiza trabajo",
+        "culminar el programa me garantiza una plaza ",
+        "terminar el programa me garantiza una plaza "
+
+        
+      ],
+      "responses": [
+        "No, nuestro programa cuenta con hitos en cada una de las competencias de liderazgo y habilidades para la enseñanza, que formamos y acompañamos. Durante la formación inicial, se espera que los y las participantes alcancen los hitos establecidos para esta etapa y cumplan los requisitos del programa para finalizarlo satisfactoriamente e iniciar su experiencia como Ecos en el 2025."
+      ]
+    },
+    {
+      "tag": "compromiso_2_dos_años",
+      "patterns": [
+        "¿por que el comprimiso es solo de dos años?",
+        "¿cuanto tiempo dura el contrato de trabajo?",
+        "¿por que el contrato solo dura dos años?",
+        "por que solo dos años"
+        
+        
+      ],
+      "responses": [
+        "Los cambios en educación toman tiempo. En Enseña por Colombia creemos que un año no es suficiente para lograr generar el impacto que soñamos en el desarrollo de nuestros estudiantes y en las comunidades. Asimismo, el desarrollo del liderazgo colectivo toma tiempo, tanto a nivel individual como grupal. Para quienes participan del programa Lidera, trabajar por una educación equitativa para todas y todos es un proyecto de vida. Así, nuestros Alumni (egresados del programa) continúan trabajando por la transformación del sistema educativo desde diferentes frentes en los sectores educativo y social."
+      ]
+    },
+    {
+      "tag": "enseñar_colegio_asignacion",
+      "patterns": [
+        "¿Cuándo se en que colegio enseñare?",
+        "¿puedo escoger el colegio donde voy a enseñar?",
+        "¿como se cual colegio me asignan para enseñar?",
+        "puedo escoger el colegio donde voy a enseñar",
+        "uno puedo escoger el colegio donde va a enseñar",
+        "como es la asignacion de los colegios"
+
+        
+        
+      ],
+      "responses": [
+        "El proceso de presentación de perfiles a los colegios se lleva a cabo entre los meses de diciembre a abril. El colegio realiza el proceso de selección como lo hace con todas las personas interesadas en la vacante (incluyendo a aquellas que no hacen parte del programa). Cuando un(a) Eco es presentado por Enseña por Colombia y aprueba los filtros de selección de la Institución Educativa, pasa a una etapa de contratación, al firmar su contrato la plaza queda confirmada. En ese momento es cuando se sabe con certeza en qué colegio enseñará."
+      ]
+    },
+    {
+      "tag": "materia_asignatura_enseñar",
+      "patterns": [
+        "¿puedo escoger la materia que se va a enseñar?",
+        "quien me asigna la materia que voy a enseñar",
+        "como se asignan la materia que se va a enseñar",
+        "puedo escoger la asignatura que voy a enseñar",
+        "Ustedes dan el material para enseñar ?",
+        "ustedes me propircionan el material para enseñar en las clases"
+
+        
+        
+       
+        
+        
+      ],
+      "responses": [
+        "La estrategia de Enseña por Colombia, es que cada Eco enseñe una materia afín a su carrera. Por ejemplo, quienes hablan inglés muchas veces enseñan inglés, quienes son ingenieros(as) enseñan matemáticas, quienes son antropólogos(as) enseñan sociales, etc. En algunas instituciones educativas asignan varias asignaturas a un(a) docente, de acuerdo al perfil profesional y sus habilidades. También existe la posibilidad de ser asignados como monodocentes en primaria, lo cual implica dar todas las asignaturas. *Nota: Te invitamos a revisar las siguientes resoluciones para mayor detalle: Resolución 15683 de 2016 y Resolución 0253 de 2019."
+      ]
+    },
+    {
+      "tag": "ingles",
+      "patterns": [
+        "¿si quiero enseñar ingles que nivel debo de tener?",
+        "¿que necesito para ser profesor de ingles?",
+        "¿que requisitos necesito para enseñar ingles?",
+        "que nivel de ingles debo de tener para enseñar",
+        "cuales son los requisitos para enseñar ingles"
+        
+        
+      ],
+      "responses": [
+        "Para enseñar inglés debes tener un nivel B2 o superior en el Marco Común Europeo, el cual será verificado a través de preguntas en inglés durante el proceso de selección y, dependiendo el aliado educativo, es posible que se solicite tener un examen de clasificación internacional que lo soporte."
+      ]
+    },
+    {
+      "tag": "poblacion_estudiantes",
+      "patterns": [
+        "¿con que poblacion trabajan?",
+        "¿con que grados de estudiantes trabajan?",
+        "¿cuales son las poblaciones beneficiadas ?",
+        "a que grupo de personas va dirigida esta campaña",
+        " a que poblacion esta dirigido el programa",
+        " con que grupos trabajan",
+        "con que estudiantes se trabaja",
+        "con que edades de estudiantes trabajan"
+        
+        
+      ],
+      "responses": [
+        "Nosotros trabajamos principalmente con estudiantes en Secundaria (46.6 %) media (19,6)%). En algunos colegios en primaria (31.1%). Además, algunos de nuestros Ecos han trabajado con las comunidades educativas desde proyectos extracurriculares."
+      ]
+    },
+    {
+      "tag": "traslado_region_residencia_ciudad",
+      "patterns": [
+        "Enseña por Colombia paga si me tengo que trasladar a un lugar fuera de mi lugar de residencia",
+        "me pagan para trasladarme a la nueva region",
+        "hay alguna ayuda por cambiarme de region",
+        "me cubren los gastos de traslado a la nueva region",
+        "me pagan por trasladare a la nueva region",
+        "brindan ayuda economica para cambiarse a la nueva region"
+        
+        
+        
+      ],
+      "responses": [
+        "No, Enseña por Colombia no cubre los costos de traslado a la nueva región."
+      ]
+    },
+    {
+      "tag": "subsidios_ayudas_materiales",
+      "patterns": [
+        "¿ofrece subsidios o ayudas para los materiales en región?",
+        "hay algun subsidio o ayuda para los materiales de las clases",
+        "dan los materiales para las clases",
+        "ustedes proveen los materiales para trabajar en el aula",
+        "dan los materiales de trabajo",
+        "ustedes proporcionan los materiales para trabajar en el aula",
+        "brindan ayuda economica para los materiales",
+        "existe ayuda para los materiales de trabajo"
+        
+        
+        
+      ],
+      "responses": [
+        "No, Enseña por Colombia no ofrece ayudas para los materiales, cada Eco debe de trabajar de la mano con su institución educativa."
+      ]
+    },
+    {
+      "tag": "salario_sueldo_rangos_salariales",
+      "patterns": [
+        "¿Tendré un salario? ¿Cuáles son los rangos salariales",
+        "cual es el sueldo mensual",
+        "cual el es sueldo de un profesional",
+        "cuanto pagan por trabajar con ustedes"
+        
+        
+        
+      ],
+      "responses": [
+        "Sí, todos nuestros Ecos que pasan el proceso de selección satisfactoriamente con alguno de nuestros aliados educativos y realizan de manera óptima el proceso de contratación, firman un contrato laboral con la institución educativa a la que sean asignados. El salario puede variar dependiendo del colegio y la región en la que sean asignados. Esta remuneración está definida en el marco de la Canasta Educativa de cada entidad territorial. Hoy en día los rangos salariales están entre $1.470.000 pesos colombianos hasta más o menos $2.500.000 pesos colombianos. Los tipos de contratos que manejan nuestros aliados son: contrato laboral (a término fijo, a término indefinido, por obra o labor) o contrato de prestación de servicios; según sea el caso."
+      ]
+    }
+
+
+
+  ]
+}
