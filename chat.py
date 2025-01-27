@@ -33,7 +33,7 @@ model = NeuralNet(input_size, hidden_size, output_size).to(device)
 model.load_state_dict(model_state)
 model.eval()
 
-bot_name = "iris-NLP"
+bot_name = "Enseña por Colombia"
 def get_response(msg):
     sentence = tokenize(msg)
     X = bag_of_words(sentence, all_words)
